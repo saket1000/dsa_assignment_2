@@ -1,0 +1,6 @@
+x = [int(k) for k in input("Enter number ").split()]
+l=[]
+for t in x:
+    if t%2 == 0:
+       l.append(t)
+print(l)
